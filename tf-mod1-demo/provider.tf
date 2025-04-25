@@ -1,7 +1,8 @@
 provider "google" {
-  credentials = file("Cloud Networking\\Week 1\\farro-437723-1a4f6ccc5bce.json")
 
-  project = "FILL-IN"
+  credentials = file("../../farro-437723-2de645c68dcd.json")
+
+  project = "farro-437723"
   region  = "us-central1" 
   zone    = "us-central1-c"
 }
