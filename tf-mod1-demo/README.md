@@ -2,9 +2,6 @@
 
 Creates a single VM in the default VPC network.
 
-## Modify
-In provider.tf, change the two locations which say FILL-IN.  The first points to the json file that was downloaded when creating a service account.  The second is the project name.
-
 ## To Run
 ```
 terraform init
